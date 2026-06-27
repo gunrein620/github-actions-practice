@@ -11,3 +11,9 @@ jobs:
     steps:
       - name: hello world 찍기
         run: echo "hello world"
+
+      - name: 여러문장 작성
+        run: |
+          echo "테스트"
+          echo "여러문장"
+          echo "넣어보기"
