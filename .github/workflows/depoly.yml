@@ -22,3 +22,9 @@ jobs:
         run: |
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
+
+      - name: 노출되면 안되는 값 github secrets 에 저장해보기
+        run: |
+          echo ${{ secrets.secret_MY_KEY }}
+          echo ${{ secrets.secret_MY_HOBBY }}
+          
